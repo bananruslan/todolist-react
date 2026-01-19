@@ -1,0 +1,22 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.item .actions {
+    display: flex;
+    gap: 12px;
+}
+
+.item .text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item.completed .text {
+    text-decoration: line-through;
+}
