@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
-import { Button } from './components/Button'
-import { Item } from './components/Item/Item'
-import { List } from './components/List/List'
-import './App.css'
+import { Button } from '../../components/Button'
+import { Item } from '../../components/Item/Item'
+import { List } from '../../components/List/List'
+import './Todo.css'
 
-function App() {
+function Todo() {
   const [items, setItems] = useState([])
 
   const onDeleteItem = (id) => {
@@ -34,4 +34,4 @@ function App() {
     </>
   )
 }
-export default App
+export default Todo
